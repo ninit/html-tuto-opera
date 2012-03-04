@@ -1,0 +1,88 @@
+/*
+ * http://www.w3.org/community/webed/wiki/Main_Page#CSS 
+ */
+
+body {
+  /*
+   * D'abord couleur de repli si l'image n'existe pas, puis l'image.
+   * C'est le dernier qui gagane.
+   */
+  background-color:silver;
+  background-image:url(back-blue.jpg);
+  background-repeat:no-repeat;
+  background-position:top right;
+  color:olive;
+  font-family: helvetica, arial, sans-serif;
+}
+
+blockquote {
+  color:green;
+}
+
+h1 {
+}
+    
+h2 {
+}
+    
+ol#liste_part1 {
+  color:blue;
+}
+    
+ol#liste_part2 {
+  color:teal;
+}
+    
+ol#liste_a_faire > li.a_faire {
+  color:red;
+}
+    
+ol#liste_a_faire > li.fait {
+  color:green;
+  text-decoration:line-through;
+}
+    
+ol#liste_a_faire > li.partiel {
+  color:orange;
+}
+    
+code {
+  background:white;
+  color:black;
+}
+    
+#introduction {
+  font-size: larger;
+  font-weight: bold;
+}
+
+table {
+  width: 80%;
+  margin: 0;
+  background: #FFFFFF;
+  border: 1px solid #333333;
+  border-collapse: collapse;
+}
+
+td, th {
+  border-bottom: 1px solid #333333;
+  padding: 6px 16px;
+  text-align: left;
+}
+
+th {
+  background: #EEEEEE;
+}
+
+caption {
+  background: #E0E0E0;
+  margin: 0;
+  border: 1px solid #333333;
+  border-bottom: none;
+  padding: 6px 16px;
+  font-weight: bold;
+}
+
+img[src$=".jpeg"] {
+  border: 3px solid red;
+}
