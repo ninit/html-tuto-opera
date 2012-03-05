@@ -10,7 +10,8 @@ body {
     background-color:silver;
     background-image:url(back-blue.jpg);
     background-repeat:no-repeat;
-    background-position:top right;
+    background-position:center right;
+    background-attachment:fixed;
     color:olive;
     font-family: helvetica, arial, sans-serif;
 }
@@ -56,6 +57,12 @@ div#code {
     background:white;
     color:black;
 }
+
+div#code > pre {
+    /* ceci retire la marge ajoutée par la bordure visible */
+    margin:0;
+}
+
 /*
 code {
     background:white;
