@@ -1,0 +1,30 @@
+#span-a {
+    float: left;
+    background-color: #cfc;
+    color: #030;
+    padding: 1em 1em 10em;
+}
+
+#span-b {
+    float: left;
+    background-color: #ccf;
+    color: #003;
+    padding: 1em;
+}
+
+#span-c {
+    float: left;
+    background-color: #fcc;
+    color: #300;
+    padding:2em 1em;
+}
+
+span {
+    width: 34%;
+}
+
+p {
+    border: 1px solid #f00;
+    background-color: #ff9;
+    padding: 1em;
+}
